@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>Calendar</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header_inner">				
+				<nav class="nav">
+					<a class="nav_link" href="about.html">About</a>
+					<a class="nav_link" href="calendar.html">My calendar</a>
+					<a class="nav_link active" href="stars.html">Stars</a>
+					<a class="nav_link" href="logIn.html">Log in</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+    <div class="intro" style="height: 200vh;">
+    <div class="container">
+		<div class="intro_inner">
+			<h3 class="intro_suptitle">А что по знаменитостям?</h3>
+			<p class="intro_littletitle">На этой странице вы можете посмотреть на некоторые достижения Альберта Эйнштейна и Исаака Ньютона</p>
+			<img src="assets/images/stars.png" alt="stars calendar" title="" width="70%"><br>
+		</div>
+    </div>
+</div>
+<footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Author: Margarita Mazets</br>
+	<a href="https://mdbootstrap.com/">My GitHab</a>
+	</div>
+</footer>
+</body>
+</html>

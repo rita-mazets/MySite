@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>Calendar</title>
+</head>
+<body>
+<header class="header">
+		<div class="container">
+			<div class="header_inner">				
+				<nav class="nav">
+					<a class="nav_link" href="about.html">About</a>
+					<a class="nav_link" href="#">My calendar</a>
+					<a class="nav_link" href="stars.html">Stars</a>
+					<a class="nav_link active" href="logIn.html">Log in</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+    <div class="intro">
+    <div class="container">
+		<div class="intro_inner">
+			<div>
+				<fieldset>
+					<legend>Log In</legend>
+					<form method="post">
+						<label for="log">Login:</label>
+						<input id="log" type="text" name="login" maxlength="20"><br>
+						<label>Password:<input type="password" name="pass" maxlength="30"></label></br>
+						<input type="submit" value="Log In">
+					</form>
+				</fieldset>
+			</div>
+		</div>
+    </div>
+</div>
+<footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+</footer>
+</body>
+</html>
