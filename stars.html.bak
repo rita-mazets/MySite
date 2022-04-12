@@ -12,7 +12,7 @@
 			<div class="header_inner">				
 				<nav class="nav">
 					<a class="nav_link" href="about.html">About</a>
-					<a class="nav_link" href="calendar.html">My calendar</a>
+					<a class="nav_link" href="index.html">My calendar</a>
 					<a class="nav_link active" href="stars.html">Stars</a>
 					<a class="nav_link" href="logIn.html">Log in</a>
 				</nav>
